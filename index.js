@@ -2,6 +2,7 @@
 /**
  * @module filter
  * @author stagas
+ * @version 1.0.0
  * @org opendsp
  * @desc one pole filter
  * @credits Will Pirkle
