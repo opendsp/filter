@@ -5,6 +5,7 @@
 
 import OnePoleFilter from './index.js';
 import { Ramp } from 'opendsp/wavetable-osc';
+import debug from 'debug';
 
 var lp = OnePoleFilter('lpf');
 var hp = OnePoleFilter('hpf');
@@ -16,6 +17,8 @@ var osc_c = Ramp();
 lp.cut(200);
 hp.cut(5000);
 ap.cut(900);
+
+debug(lp.getFeedbackOutput());
 
 export function dsp(t){
   var out_a, out_b, out_c;

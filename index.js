@@ -22,12 +22,17 @@ function OnePoleFilter(type){
   };
   this.fc = 200;
   this.a = 1;
+  this.b = 1;
   this.reset();
   this.update();
 }
 
 OnePoleFilter.prototype.reset = function(){
   this.z1 = 0;
+};
+
+OnePoleFilter.prototype.getFeedbackOutput = function(){
+  return this.z1 * this.b;
 };
 
 OnePoleFilter.prototype.update = function(){
