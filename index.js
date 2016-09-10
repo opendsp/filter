@@ -2,7 +2,7 @@
 /**
  * @module filter
  * @author stagas
- * @version 1.0.0
+ * @version 2.0.0
  * @org opendsp
  * @desc one pole filter
  * @credits Will Pirkle
@@ -10,7 +10,7 @@
  * @license mit
  */
 
-import prewarp from 'opendsp/prewarp';
+import prewarp from 'prewarp';
 
 export default OnePoleFilter;
 

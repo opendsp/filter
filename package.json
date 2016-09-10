@@ -1,0 +1,22 @@
+{
+  "name": "filter",
+  "version": "2.0.0",
+  "description": "one pole filter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opendsp/filter.git"
+  },
+  "author": "stagas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opendsp/filter/issues"
+  },
+  "homepage": "https://github.com/opendsp/filter#readme",
+  "dependencies": {
+    "prewarp": "github:opendsp/prewarp#1.0.0"
+  }
+}
